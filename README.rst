@@ -2,7 +2,7 @@ logstash formatter
 ==================
 
 This is a 'reimplementation' of the logstash handler to format messages to
-a logstash json format.
+a logstash json format. The original version (on which we are based) can be found at; https://github.com/exoscale/python-logstash-formatter
 
 Usage
 =====
