@@ -22,6 +22,7 @@ In e.g. a pyramids configuration file the handler can be connected via the
 following entry:
 
 ::
+
     [formatter_logstash]
     class = proigia_logstash_formatter.ProigiaLogstashFormatter
 
