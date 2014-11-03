@@ -8,10 +8,10 @@ Usage
 =====
 To use this module, clone it via:
 
-```
-git clone https://github.com/Proigia/proigia-logstash-formatter.git
-cd proigia-logstash-formatter
-```
+::
+
+    git clone https://github.com/Proigia/proigia-logstash-formatter.git
+    cd proigia-logstash-formatter
 
 and then
 
@@ -21,10 +21,9 @@ and then
 In e.g. a pyramids configuration file the handler can be connected via the
 following entry:
 
-```
-[formatter_logstash]
-class = proigia_logstash_formatter.ProigiaLogstashFormatter
-```
+::
+    [formatter_logstash]
+    class = proigia_logstash_formatter.ProigiaLogstashFormatter
 
 and connect it via all 'relevant' other logging settings, as documented by
 pyramids; http://docs.pylonsproject.org/docs/pyramid/en/latest/narr/logging.html
