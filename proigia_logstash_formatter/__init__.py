@@ -60,7 +60,7 @@ class ProigiaLogstashFormatter(logstash_formatter.LogstashFormatterV1):
             fields.pop('exc_text')
 
         now = datetime.datetime.utcnow()
-        base_log = {'@timestamp': now.strftime("%Y-%m-%dT%H:%M:%S") +
+        base_log = {'@pyramid_ts': now.strftime("%Y-%m-%dT%H:%M:%S") +
                     ".%03d" % (now.microsecond / 1000) + "Z",
                     '@version': 1,
                     'source_host': self.source_host,
